@@ -1,0 +1,51 @@
+body {
+  background-image: url(gray.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 4px black;
+  font-family: sans-serif;
+  
+}
+.forma{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(0, 0, 0, .7);
+  border-radius: 20px;
+}
+.forma h1{
+  margin: 17px 60px;
+  padding: 0;
+  text-align: center;
+  color: rgb(255,255,255);
+  font-size: 25px;
+  text-transform:none;
+  border-radius: 50px;
+}
+
+.input-forma{
+  margin: 10px 15%;
+  text-align: center; 
+  padding: 10px;
+  width: 70%;
+  color: rgb(255,255,255);
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: 1px solid rgb(255,255,255);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.radio-button{
+  margin: 10px 15%;
+  text-align: center; 
+  font-size: 20px;
+  background: none;
+  outline: none;
+  box-sizing: border-box;
+  color: rgb(255,255,255);
+  font-size: 15px;
+  background-color: rgb(255,255,255);
+}
